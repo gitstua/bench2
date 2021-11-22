@@ -1,7 +1,9 @@
-# bench2
-- a basic dotnet benchmark
+# Bench2
+- a basic .NET benchmark
 
-## running
+## Running
+- install .NET core: https://dotnet.microsoft.com/download/dotnet 
+
 BenchMarkDotNet requires a release config so use 
 ```
 dotnet run -c release
