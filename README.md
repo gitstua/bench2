@@ -44,5 +44,5 @@ Intel Core i7-8650U CPU 1.90GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 
 | Method |     Mean |    Error |   StdDev |
 |------- |---------:|---------:|---------:|
-| Sha256 | 66.87 us | 0.980 us | 0.869 us |
-|    Md5 | 33.39 us | 0.658 us | 1.219 us |
+| Sha256 | 66.80 us | 1.200 us | 1.064 us |
+|    Md5 | 29.07 us | 0.332 us | 0.311 us |
