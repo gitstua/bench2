@@ -34,3 +34,15 @@ Unknown processor
 |------- |----------:|----------:|----------:|----------:|
 | Sha256 |  5.820 us | 0.1713 us | 0.4998 us |  5.624 us |
 |    Md5 | 24.549 us | 0.3828 us | 0.3580 us | 24.587 us |
+
+### 3
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22000
+Intel Core i7-8650U CPU 1.90GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=6.0.100
+  [Host]     : .NET 6.0.0 (6.0.21.52210), X64 RyuJIT
+  DefaultJob : .NET 6.0.0 (6.0.21.52210), X64 RyuJIT
+
+| Method |     Mean |    Error |   StdDev |
+|------- |---------:|---------:|---------:|
+| Sha256 | 66.87 us | 0.980 us | 0.869 us |
+|    Md5 | 33.39 us | 0.658 us | 1.219 us |
